@@ -1,9 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Cabin:wght@400;700&display=swap');
 
 
+:root
+{
+    --primary-color:#34D399;
+}
 body{
 font-family: 'Cabin', sans-serif;
 }
+/* css on container segment  */
 .container
 {
     padding-left:1rem;
@@ -18,3 +23,27 @@ font-family: 'Cabin', sans-serif;
     margin:auto;
     max-width:600px;
 }
+
+/* css on link segment  */
+
+.primary-link
+{
+    background-color:var(--primary-color);
+    /* background-color: ; */
+    border-radius: 0.5rem;
+    color:#fff;
+}
+.link{
+    text-decoration: none;
+    padding:0.5rem 1rem;
+
+}
+.secondary-link
+{
+    color:var(--primary-color);
+    border-radius:0.5rem;
+    border:1px solid var(--primary-color);
+
+
+}
+
