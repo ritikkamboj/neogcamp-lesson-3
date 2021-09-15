@@ -9,7 +9,9 @@
 
 body {
     font-family: 'Cabin', sans-serif;
+    margin:0;
 }
+
 
 /* css on container segment  */
 .container {
@@ -123,5 +125,29 @@ hr {
 .ow
 {
     background-color: var(--offwhite);
+
+}
+
+/* footer  */
+
+.footer
+{
+    background-color: var(--primary-color);
+    padding:2rem 1rem;
+    text-align:center;
+    color:#fff;
+    border-top-right-radius: 1rem;;
+}
+
+.footer .link{
+    color:#fff;
+} 
+.footer ul
+{
+    padding-inline-start:0rem;
+}
+.footer-header
+{
+
 
 }
