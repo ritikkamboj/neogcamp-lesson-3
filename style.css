@@ -4,3 +4,17 @@
 body{
 font-family: 'Cabin', sans-serif;
 }
+.container
+{
+    padding-left:1rem;
+    padding-right:1rem;
+}
+.container-fluid
+{
+
+}
+.container-center
+{
+    margin:auto;
+    max-width:600px;
+}
