@@ -4,6 +4,7 @@
 :root
 {
     --primary-color:#34D399;
+    --dark-grey:#4B5563;
 }
 body{
 font-family: 'Cabin', sans-serif;
@@ -86,4 +87,30 @@ hr{
 .link-active
 {
     font-weight:bold;
+}
+
+
+/* header pe aa gaye hai  */
+
+.hero{
+    padding:2rem;
+}
+.hero .hero-img
+{
+    max-width:350px;
+    display:block;
+    /* text-align:center; */
+    margin:auto;
+}
+
+.hero .hero-heading
+{
+    color:var(--dark-grey);
+    padding-top: 1rem;
+    text-align:center;
+
+}
+.hero .hero-heading .heading-imp
+{
+    color:var(--primary-color);
 }
